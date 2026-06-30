@@ -44,3 +44,6 @@ O objetivo do projeto é converter valores em **Real Brasileiro (BRL)** para out
 Desenvolvido por **Well Reis** durante minha jornada de aprendizado em desenvolvimento web.
 
 Sempre buscando evoluir um projeto de cada vez. 🚀
+=======
+# conversor-moedas
+Meu primeiro projeto utilizando HTML, CSS e JavaScript.
