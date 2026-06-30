@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body{
+    background-color: #8A51FC;
+}
+
+#logo-image{
+    width: 300px;
+    display: block;
+    margin: 12px auto 16px;
+}
+main{
+    background-color: #F4F4F4;
+    width: 375px;
+    padding: 44px 24px 23px;
+    border-radius: 20px;
+    margin: 0 auto 35px;
+}
+label{
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button{
+    background: #772FD3;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    border: 1px solid #772FD3;
+    margin-top: 36px;
+    border-radius: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img{
+    margin: 15px 0;
+}
+.money-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.coin{
+    font-weight: 400;
+    color: #777777;
+    font-size: 16px;
+}
+
+.result,.final-result{
+    font-weight: 700;
+    font-size: 18px;
+    color: #555555;
+}
